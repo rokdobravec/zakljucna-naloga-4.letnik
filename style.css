@@ -1,0 +1,219 @@
+* {
+    text-align: justify;
+  }
+  
+  body {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 170px;
+  }
+  /* okvir<header>*/
+  header{
+    background-color: rgb(158, 141, 141);
+  }
+  header nav {
+    width: 100%;
+    height: 100px;
+  }
+  header ul {
+    margin-left: auto;
+    float: right;
+  }
+  header ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 50px;
+  }
+  header ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial;
+    color: #000000;
+    padding: 0 5px;
+  }
+  header ul li a:hover {
+    background-color: grey;
+  }
+  li{
+    list-style-type: none;
+  }
+/* okvir<footer>*/
+  footer {
+  position: relative;
+  height: 170px;
+  background-color: rgb(158, 141, 141);
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+  .contacts {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contacts .title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .footer-columns {
+    align-self: center;
+    display: inline-flex;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .podjetje {
+    list-style: none;
+    padding: 0, 90px;
+  }
+  
+  .podjetje a {
+    color: black;
+    text-decoration: none;
+    font-weight: 200;
+  }
+  .podjetje a:hover {
+    background-color: grey;
+    text-decoration: none;
+  }
+  
+  .povezave {
+    list-style: none;
+    padding: 0, 200px;
+  }
+  
+  .povezave a {
+    color: black;
+    text-decoration: none;
+    font-weight: 200;
+  }
+  .povezave a:hover {
+    background-color: grey;
+    text-decoration: none;
+  }
+  
+  .kontakt {
+    list-style: none;
+    padding: 0, 90px;
+  }
+  
+  .kontakt a {
+    color: black;
+    text-decoration: none;
+    font-weight: 200;
+  }
+  
+  .kontakt a:hover {
+    background-color: rgb(155, 155, 155);
+    text-decoration: none;
+  }
+  .naslov-1{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+  .naslov-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+/* css za index */
+section{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+hr{
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  border-top-style: inset;
+  border-top-width: 1px;
+}
+table{
+  width: auto;
+  height: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+table tr{
+  text-align: center;
+}
+table tr td{
+  padding: 5px;
+}
+.cas-odprtja{
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* css za metode */
+  .card-container{
+    border: 2px solid black;
+    border-radius: 7.5px;
+    margin: 10px;
+    padding: 10px;
+    width: 145px;
+    max-width: 200px;
+  }
+  .card-img-top{
+    height: 120px;
+    width: 120px;
+  }
+  /* Css za podtrani metod */
+.img-responsive{
+
+  width: 600px;
+  height: 400px;
+}
+.besedilo{
+  text-align: justify;
+  float: left;
+  margin-left: 100px;
+  overflow: auto;
+}
+.besedilo-sredina{
+  text-align: center;
+  margin:0 auto;
+  overflow: auto;
+}
+.besedilo-zobje{
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-1{
+  width: 100%;
+  height: max-content;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px;
+  display: inline-flex;
+}
+.card-text{
+  overflow: auto;
+}
+.okvir-besedilo{
+  width: 40%;
+  margin-left: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5%;
+}
+.logo{
+  height: 85px;
+  width: 30%;
+}
